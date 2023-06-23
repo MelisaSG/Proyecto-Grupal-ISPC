@@ -12,5 +12,5 @@
 
 - Lujan Oscar
 
-- Merlo Ana
+- Merlo Ana.
 
