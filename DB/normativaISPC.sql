@@ -66,6 +66,11 @@ CREATE TABLE `normativas` (
 LOCK TABLES `normativas` WRITE;
 /*!40000 ALTER TABLE `normativas` DISABLE KEYS */;
 INSERT INTO `normativas` VALUES (1,'Ley','20.744','2021-01-01','Ley de Contrato de Trabajo','Laboral','Argentina','Congreso de la Nación','Contrato, Trabajo'),(2,'Ley','27.555','2022-02-01','Ley de Teletrabajo','Laboral','Argentina','Congreso de la Nación','Teletrabajo'),(3,'Ley','7642','2023-03-01','Ley de Ejercicio Profesional de la Informática en Córdoba','Profesional','Córdoba','Legislatura de la Provincia','Informática, Ejercicio Profesional');
+
+/*Oscar lujan*/
+SELECT * FROM `normativas`;
+UPDATE `normativas` SET `PalabrasClave` = `Ejercicio Profesional`
+DELETE FROM `normativas` WHERE `NroRegistro` = 1
 /*!40000 ALTER TABLE `normativas` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
